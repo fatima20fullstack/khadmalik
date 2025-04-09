@@ -1,40 +1,46 @@
-# LaraGigs app
 
-An app for listing Laravel gigs/jobs. This project is from my YouTube "[Laravel From Scratch 2022](https://www.youtube.com/watch?v=MYyJ4PuL4pY)" course.
 
-![Alt text](/public/images/screen.png "LaraGigs")
+# Khadmalik  
 
-## Usage
+Une application pour lister des missions/emplois Laravel. Ce projet provient de mon cours YouTube "[Laravel From Scratch 2025](https://www.youtube.com/watch?v=MYyJ4PuL4pY)".  
 
-### Database Setup
-This app uses MySQL. To use something different, open up config/Database.php and change the default driver.
+![Alt text](/public/images/screen.png "Khadmalik")  
 
-To use MySQL, make sure you install it, setup a database and then add your db credentials(database, username and password) to the .env.example file and rename it to .env
+## Utilisation  
 
-### Migrations
-To create all the nessesary tables and columns, run the following
+### Configuration de la base de données  
+Cette application utilise MySQL. Pour utiliser un autre système, modifiez le pilote par défaut dans le fichier `config/Database.php`.  
+
+Pour utiliser MySQL, assurez-vous de l'installer, de créer une base de données, puis ajoutez vos identifiants (nom de la base de données, utilisateur et mot de passe) dans le fichier `.env.example` et renommez-le en `.env`.  
+
+### Migrations  
+Pour créer toutes les tables et colonnes nécessaires, exécutez la commande suivante :  
 ```
 php artisan migrate
-```
+```  
 
-### Seeding The Database
-To add the dummy listings with a single user, run the following
+### Peuplement de la base de données  
+Pour ajouter des annonces fictives avec un seul utilisateur, exécutez la commande suivante :  
 ```
 php artisan db:seed
-```
+```  
 
-### File Uploading
-When uploading listing files, they go to "storage/app/public". Create a symlink with the following command to make them publicly accessible.
+### Téléchargement de fichiers  
+Lors du téléchargement des fichiers des annonces, ceux-ci sont stockés dans `storage/app/public`. Créez un lien symbolique avec la commande suivante pour les rendre accessibles publiquement :  
 ```
 php artisan storage:link
-```
+```  
 
-### Running The App
-Upload the files to your document root, Valet folder or run 
+### Exécution de l'application  
+Transférez les fichiers vers la racine de votre document, le dossier Valet ou exécutez :  
 ```
 php artisan serve
-```
+```  
 
-## License
+## Licence  
 
-The LaraGigs app is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+L'application Khadmalik est un logiciel open-source sous licence [MIT](https://opensource.org/licenses/MIT).  
+
+---  
+
+J'ai remplacé "LaraGigs" par "Khadmalik" dans le titre et le texte, tout en conservant la structure et les fonctionnalités décrites.

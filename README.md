@@ -2,7 +2,7 @@
 
 # Khadmalik  
 
-Une application pour lister des missions/emplois Laravel. Ce projet provient de mon cours YouTube "[Laravel From Scratch 2025](https://www.youtube.com/watch?v=MYyJ4PuL4pY)".  
+Une application pour lister des missions/emplois  "[ 2025] 
 
 ![Alt text](/public/images/screen.png "Khadmalik")  
 
@@ -39,8 +39,6 @@ php artisan serve
 
 ## Licence  
 
-L'application Khadmalik est un logiciel open-source sous licence [MIT](https://opensource.org/licenses/MIT).  
+L'application Khadmalik est un logiciel open-source sous licence
 
----  
 
-J'ai remplacé "LaraGigs" par "Khadmalik" dans le titre et le texte, tout en conservant la structure et les fonctionnalités décrites.
